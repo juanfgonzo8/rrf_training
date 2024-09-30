@@ -2,6 +2,7 @@
 ## Using GitHub for Collaborative Research - README
 
 Training: Gitflow session
+
 Author: Juan Felipe Gonzalez
 
 ## Introduction
