@@ -2,6 +2,7 @@
 							Template Main do-file							   
 *******************************************************************************/
 
+	clear all
 	* Set version
 	version 17
 
@@ -24,7 +25,7 @@
 	sysdir set PLUS "${code}/ado"
 
 
-	* Install packages 
+	/* Install packages 
 	local user_commands	ietoolkit iefieldkit winsor sumstats estout keeporder grc1leg2 //Add required user-written commands
 
 	foreach command of local user_commands {
@@ -33,6 +34,7 @@
 		   ssc install `command'
 	   }
 	}
+	*/
 
 	* Run do files 
 	* Switch to 0/1 to not-run/run do-files 
