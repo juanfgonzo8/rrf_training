@@ -16,6 +16,10 @@
 		global github 	"/Users/johngonzalez/Documents/GitHub/rrf_training"
     }
 	
+		if "`c(username)'" == "leixu" {
+        global onedrive "C:\Users\leixu\OneDrive\桌面\Internship\DIME\course\DataWork"
+		global github 	"C:\Users\leixu\OneDrive\桌面\Internship\DIME\info sessions\rrf_training"
+    }
 	
 	* Set globals for sub-folders 
 	global data 	"${onedrive}/Data"
